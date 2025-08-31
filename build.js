@@ -31406,7 +31406,7 @@
               key: "onKonami",
               value: function () {
                 var t = new ua(),
-                  e = "/portfolio2020/assets/images/king.png",
+                  e = "/assets/images/king.png",
                   n = t.load(e);
                 (n.wrapS = n.wrapT = 1e3), n.repeat.set(10, 10);
                 var i = t.load(e);
@@ -32343,7 +32343,7 @@
             e.$el.addEventListener("mouseover", e.onMouseOver),
             e.$el.addEventListener("mouseout", e.onMouseOut),
             (e.src =
-              "portfolio2020/assets/images/projects/" + e.$el.getAttribute("data-src")),
+              "/assets/images/projects/" + e.$el.getAttribute("data-src")),
             (e.color = e.$el.getAttribute("data-color") || "#ffffff"),
             (e.image = new Image()),
             (e.image.src = e.src)),
