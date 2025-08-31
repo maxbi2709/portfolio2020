@@ -32343,7 +32343,7 @@
             e.$el.addEventListener("mouseover", e.onMouseOver),
             e.$el.addEventListener("mouseout", e.onMouseOut),
             (e.src =
-              "/assets/images/projects/" + e.$el.getAttribute("data-src")),
+              "portfolio2020/assets/images/projects/" + e.$el.getAttribute("data-src")),
             (e.color = e.$el.getAttribute("data-color") || "#ffffff"),
             (e.image = new Image()),
             (e.image.src = e.src)),
