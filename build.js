@@ -31406,7 +31406,7 @@
               key: "onKonami",
               value: function () {
                 var t = new ua(),
-                  e = "/assets/images/king.png",
+                  e = "/portfolio2020/assets/images/king.png",
                   n = t.load(e);
                 (n.wrapS = n.wrapT = 1e3), n.repeat.set(10, 10);
                 var i = t.load(e);
@@ -31738,7 +31738,7 @@
             new ru(this.renderer),
             new fu(this.renderer, !!s.getExtension("EXT_color_buffer_float"))
           ),
-          Ql.load(xu, "/assets/models/").then(this.onLoadComplete);
+          Ql.load(xu, "/portfolio2020/assets/models/").then(this.onLoadComplete);
       }
       var e, n, i;
       return (
@@ -31859,7 +31859,7 @@
             value: function () {
               var t = this;
               (this.stayInside.material.map = new ua().load(
-                "/assets/images/inside.png"
+                "/portfolio2020/assets/images/inside.png"
               )),
                 (this.motionPath = {
                   x: this.camera.position.x,
