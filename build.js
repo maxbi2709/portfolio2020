@@ -32346,7 +32346,7 @@
               "/assets/images/projects/" + e.$el.getAttribute("data-src")),
             (e.color = e.$el.getAttribute("data-color") || "#ffffff"),
             (e.image = new Image()),
-            (e.image.src = e.src)),
+            (e.image.src = "/portfolio2020" + e.src)),
           e
         );
       }
